@@ -1,0 +1,2 @@
+import { MessageCircle } from "lucide-react"; import { site } from "@/config/site";
+export default function WhatsAppButton(){return <a aria-label="Chat with us on WhatsApp" href={`https://wa.me/${site.phone.replace("+","")}?text=${encodeURIComponent("Hello, I would like to discuss a construction project.")}`} target="_blank" rel="noreferrer" className="fixed bottom-6 right-5 z-40 grid size-12 place-items-center rounded-full bg-[#24794d] text-white shadow-lg transition hover:scale-105"><MessageCircle size={21}/></a>}

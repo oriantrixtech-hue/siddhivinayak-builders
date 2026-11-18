@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound(){return <section className="grid min-h-[75vh] place-items-center bg-paper px-6 text-center"><div><span className="eyebrow">404 · Page not found</span><h1 className="mt-5 text-6xl font-semibold text-navy">Lost in the blueprints?</h1><p className="mx-auto mt-5 max-w-md text-muted">The page you’re looking for may have moved. Let’s get you back on track.</p><Link href="/" className="mt-8 inline-block bg-gold px-6 py-4 text-xs font-bold uppercase tracking-widest text-navy">Back to home</Link></div></section>}
